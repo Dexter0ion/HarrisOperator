@@ -89,16 +89,17 @@ class Harris:
         print(self.R)
 
     
-    def processR(self):
+    def processR(self,threshold):
         pR = self.R
         R = self.R
         for i in range(self.HEIGHT):
             for j in range(self.WIDTH):
                 #threshold
-                if R[i,j]<np.amin(R)*0.3:
+                if R[i,j]<np.amin(R)*threshold:
                     pR[i,j] = 255
                     #self.img[i,j] = [255,0,0]
-                    cv2.circle(self.img,(j,i),1,(255,0,0),0)
+                    #blue green red
+                    cv2.circle(self.img,(j,i),5,(203,192,255),0)
         self.pR = pR
 
     def display(self):                    
@@ -111,11 +112,11 @@ class Harris:
         cv2.destroyAllWindows()
 
 
-H = Harris("statue.jpg")
+H = Harris("taiku.jpg")
 H.readGreyM()
 H.calGradient()
 #H.showSharp()
 H.blurPara()
 H.calR()
-H.processR()
+H.processR(0.8)
 H.display()
