@@ -1,4 +1,10 @@
 # HarrisOperator
+![chessboard1.PNG](http://upload-images.jianshu.io/upload_images/6927087-d06f68ee21e0c42f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![taiku.jpg](http://upload-images.jianshu.io/upload_images/6927087-2584e999671c68de.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![taiku1.PNG](http://upload-images.jianshu.io/upload_images/6927087-02c9e57c507e0a6b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ![lena.PNG](http://upload-images.jianshu.io/upload_images/6927087-e5eca36cc1877d09.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![statue1.PNG](http://upload-images.jianshu.io/upload_images/6927087-42b8c7d1153532ce.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
